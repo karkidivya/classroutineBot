@@ -11,7 +11,7 @@ module.exports = {
     switch(new Date().getDay())
     {
         case 0:       //sunday
-        console.log('hello');
+        
         var routineEmbed = {
         color: 0x0099ff,
             title: 'CLASS ROUTINE',
@@ -49,32 +49,27 @@ module.exports = {
             case 1:    
             var routineEmbed = {
             color: 0x0099ff,
-            title: 'CLASS ROUTINE',
+            title: 'MON CLASS ROUTINE',
                 fields: [
                 {
-                    name: '10:15 - 11:45',
-                    value: 'Microprocessor - DSB',
+                    name: '10:15 - 11:55',
+                    value: 'COA-SS',
                     inline: false,
                 },
 
                 {
-                    name: '11:45 - 12:30',
-                    value: 'Numerical Methods - BDM',
+                    name: '11:55 - 1:35',
+                    value: 'Data-communication-NBA',
                     inline: false,
                 },
                 {
-                    name: '12:30 - 1:00',
+                    name: '1:35 - 2:25',
                     value: 'BREAK',
                     inline: true,
                 },
                 {
-                    name: '1:00-1:45',
-                    value: 'Maths - SG',
-                    inline: false,
-                },
-                {
-                    name: '1:45 - 4:00',
-                    value: 'Gp - A : DSA Lab \n Gp - B : XUTTI',
+                    name: '2:25 - 4:55',
+                    value: 'data communication || software engineering lab alt',
                     inline: true,
                 },
             ],
@@ -84,27 +79,32 @@ module.exports = {
             case 2:    
             var routineEmbed = {
                 color: 0x0099ff,
-                title: 'CLASS ROUTINE',
+                title: 'TUE CLASS ROUTINE',
                     fields: [
                     {
-                        name: '10:15 - 11:45',
-                        value: 'DSA - BS',
+                        name: '10:15 - 10:55',
+                        value: 'communication english sj',
+                        inline: false,
+                    },
+                    {
+                        name: '10:55 - 11:55',
+                        value: 'data communication - nba',
                         inline: false,
                     },
 
                     {
-                        name: '11:45 - 1:00',
-                        value: 'Discrete Structure - LNR',
+                        name: '11:55 - 1:35',
+                        value: 'Prob & stat - kb',
                         inline: false,
                     },
                     {
-                        name: '1:00 - 1:45',
+                        name: '1:35 - 2:25',
                         value: 'BREAK',
                         inline: true,
                     },
                     {
-                        name: '1:45-4:00',
-                        value: 'Gp - A : NM Lab \n Gp - B : DSA Lab',
+                        name: '1:35-4:55',
+                        value: 'Gp - A : communication english Gp - B + vky class : computer graphics',
                         inline: false,
                     },
 
